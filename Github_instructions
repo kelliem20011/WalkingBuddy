@@ -1,0 +1,20 @@
+To add your changes:
+
+git status : shows all the changes you’ve made
+git add .  : adds all changes
+git commit -m “whatever you want your message to be” : commits those changes you've added with the previous command
+git push origin master . : pushes to master
+
+If you get merge conflicts:
+
+You'll need to resolve them before your push will go through.
+https://www.git-tower.com/learn/git/ebook/en/command-line/advanced-topics/merge-conflicts
+
+
+To pull the changes down:
+
+git fetch origin
+git pull origin/Master
+
+
+
